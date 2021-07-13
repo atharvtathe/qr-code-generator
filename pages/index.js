@@ -1,7 +1,8 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import React, {useState} from 'react'
 import QRCode from 'qrcode'
+
 
 
 const Home = () => {
@@ -68,11 +69,11 @@ const Home = () => {
                 </div>
 
                 {!imageurl && <div className="w-1/2 "> 
-                    <img src="/qrcode-initial.jpg" alt="qrcode" className="" />
+                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="qrcode" className="" />
                 </div>}
 
                 {imageurl && <div className="w-1/2 "> 
-                    <img src={imageurl} alt="qrcode" className="" />
+                    <Image  src={imageurl} alt="qrcode" width={350} height={350}  className="" />
                 </div>}
               
             </div>
@@ -80,11 +81,11 @@ const Home = () => {
 
             <div className="sm:hidden bg-gray-100 flex flex-col items-center mt-3 ">
                 {!imageurl && <div className="mt-3 mx-3"> 
-                    <img src="/qrcode-initial.jpg" alt="qrcode" className="" />
+                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="qrcode" className="" />
                 </div>}
 
                 {imageurl && <div className="mt-3 mx-3"> 
-                    <img src={imageurl} alt="qrcode" className="" />
+                    <Image  src={imageurl} alt="qrcode" width={350} height={350}  className="" />
                 </div>}
 
                 <div className="mt-3 mb-3">
