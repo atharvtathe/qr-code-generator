@@ -43,6 +43,7 @@ const Home = () => {
             <meta charSet="UTF-8"/>
             <link rel="icon" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="google-site-verification" content="HVBQ6o-im9lHaO68NXRKpmHCR0Gqujr-a3pIG5l86Qc" />
             <meta
               name="description"
               content="Free online QR code generater. Convert your URLs to QR codes. Download into Jpeg images. Generate unlimited QR codes. No signups and login required. Generate with one click."
