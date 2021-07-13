@@ -40,14 +40,14 @@ const Home = () => {
     return (
        <>
        <Head>
-            <meta charSet="utf-8" />
+            <meta charSet="UTF-8"/>
             <link rel="icon" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta
               name="description"
-              content="Web site created using create-react-app"
+              content="Free online QR code generater. Convert your URLs to QR codes. Download into Jpeg images. Generate unlimited QR codes. No signups and login required. Generate with one click."
             />
-            <title>QR code Generator</title>
+            <title>QR code Generator| Make QR code for Free</title>
        </Head>
         <div>
             <h1 className="text-center mt-10 mb-10 font-bold text-5xl">QR CODE GENERATOR</h1>
@@ -69,11 +69,11 @@ const Home = () => {
                 </div>
 
                 {!imageurl && <div className="w-1/2 "> 
-                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="qrcode" className="" />
+                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="QR code" className="" />
                 </div>}
 
                 {imageurl && <div className="w-1/2 "> 
-                    <Image  src={imageurl} alt="qrcode" width={350} height={350}  className="" />
+                    <Image  src={imageurl} alt="QR code" width={350} height={350}  className="" />
                 </div>}
               
             </div>
@@ -81,11 +81,11 @@ const Home = () => {
 
             <div className="sm:hidden bg-gray-100 flex flex-col items-center mt-3 ">
                 {!imageurl && <div className="mt-3 mx-3"> 
-                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="qrcode" className="" />
+                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="QR code" className="" />
                 </div>}
 
                 {imageurl && <div className="mt-3 mx-3"> 
-                    <Image  src={imageurl} alt="qrcode" width={350} height={350}  className="" />
+                    <Image  src={imageurl} alt="QR code" width={350} height={350}  className="" />
                 </div>}
 
                 <div className="mt-3 mb-3">
