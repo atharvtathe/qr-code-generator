@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
 
                 {!imageurl && <div className="w-1/2 "> 
-                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="QR code" className="" />
+                    <Image  src="/qrcode-image.jpg" width={350} height={350}  alt="QR code" className="" />
                 </div>}
 
                 {imageurl && <div className="w-1/2 "> 
@@ -82,7 +82,7 @@ const Home = () => {
 
             <div className="sm:hidden bg-gray-100 flex flex-col items-center mt-3 ">
                 {!imageurl && <div className="mt-3 mx-3"> 
-                    <Image  src="/qrcode-initial.jpg" width={350} height={350}  alt="QR code" className="" />
+                    <Image  src="/qrcode-image.jpg" width={350} height={350}  alt="QR code" className="" />
                 </div>}
 
                 {imageurl && <div className="mt-3 mx-3"> 
